@@ -1,10 +1,5 @@
-# pokemon
+# Pokedex-ish
 
-A new Flutter project.
-
-## Getting Started
-
-This project is a starting point for a Flutter application.
+lil Flutter Project OwO
 
 - It's sort of like a Pokedex! 
-# Pokedex
