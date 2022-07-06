@@ -1,7 +1,9 @@
 import 'package:flutter/material.dart';
 
+import 'widget/main_drawer_widget.dart';
+
 void main() => runApp(const MaterialApp(
-    title: 'PokeDex', home: HomePage(), debugShowCheckedModeBanner: false));
+    title: 'Pokedex', home: HomePage(), debugShowCheckedModeBanner: false));
 
 class HomePage extends StatelessWidget {
   const HomePage({Key? key}) : super(key: key);
@@ -14,6 +16,7 @@ class HomePage extends StatelessWidget {
         backgroundColor: Colors.green[100],
       ),
       body: const Center(child: Text('Welcome to the custom Pokedex! ｡◕ ‿ ◕｡')),
+      drawer: const MainDrawer(),
     );
   }
 }
